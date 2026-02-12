@@ -14,7 +14,7 @@ module rca
 
     genvar i;
     generate;
-        for(i=0; i< /*Completare qui*/; i=i+1) begin: gen_rca 
+        for(i=0; i<6; i=i+1) begin: gen_rca 
             if (i == 0) begin: gen_0
                 fa_module u(
                     .a(a[i]),
